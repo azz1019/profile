@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how_call_you</title>
+    <link rel="stylesheet" href="../../resources/css/bootstrap.min.css">
+    <script src="../../resources/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/how_call_you_style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="">
+            <fieldset>
+                <legend>How Call You?</legend>
+                <div class="my-info">
+                    <fieldset class="form-group">
+                        <legend class="mt-4">My gender</legend>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="from_gender" id="from_gender_m" value="m" checked=""> Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="from_gender" id="from_gender_f" value="f"> Female
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <legend class="mt-4">My Age</legend>
+                        <input type="number" min="1" max="100" id="from_age">
+                    </fieldset>
+                </div>
+                <div class="your-info">
+                    <fieldset class="form-group">
+                        <legend class="mt-4">Your gender</legend>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="to_gender" id="to_gender_m" value="m" checked=""> Male
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="to_gender" id="to_gender_f" value="f"> Female
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <legend class="mt-4">Your Age</legend>
+                        <input type="number" min="1" max="100" id="to_age">
+                    </fieldset>
+                </div>
+                <div class="result-info">
+                    <button type="button" class="btn btn-primary my-button" id="check_button">Check</button><br><br>
+                    <span id="result_text" class="result-text"></span>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="./js/how_call_you_script.js"></script>
+</body>
+</html>

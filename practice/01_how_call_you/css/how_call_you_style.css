@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/marissa-grootes-YwPNWDNZHkg-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.my-info {
+    float: left;
+    margin-bottom: 20px;
+}
+.your-info {
+    float: right;
+    margin-bottom: 20px;
+}
+.result-info {
+    clear: both;
+}
+.result-text {
+    font-size: 1.4em;
+}
